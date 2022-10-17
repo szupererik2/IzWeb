@@ -1,0 +1,39 @@
+body{
+  background : linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)) ,url(csapat.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.circle{
+  width: 19vw;
+  height: 19vw;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+a{
+  font-size: 200%;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.container1{
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container2{
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
